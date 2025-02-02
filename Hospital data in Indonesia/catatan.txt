@@ -1,0 +1,9 @@
+hal-hal yang dilakukan :
+1. menginspeksi jumlah null value tiap kolom (done, tidak ada null values)
+2. inspeksi semua kolom (masing masing biar tau datanya, pake fungsi head() biar limit, pake drop_duplicates() biar uniqe)
+- kolom propinsi = aman
+- kolom nama = aman
+- kolom kabupaten = aman
+- kolom alamat = gaperlu dicek (lagian kalo full project sampe visualisasi juga bakalan di drop)
+- kolom jenis = ada data yang salah tempat kolom (rs jenis ini '021-26071997') (BELUM DI BENERIN)
+- 
