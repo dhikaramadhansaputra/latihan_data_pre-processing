@@ -5,5 +5,5 @@ hal-hal yang dilakukan :
 - kolom nama = aman
 - kolom kabupaten = aman
 - kolom alamat = gaperlu dicek (lagian kalo full project sampe visualisasi juga bakalan di drop)
-- kolom jenis = ada data yang salah tempat kolom (rs jenis ini '021-26071997') (BELUM DI BENERIN)
+- kolom jenis = ada data yang salah tempat kolom (rs jenis ini '021-26071997') (BELUM DI BENERIN) - (Done, dihapus 1 row, karena dari datanya udah ngawur (provinsi DKI Jakarta tapi kabupaten kepulauan seribu))
 - 
