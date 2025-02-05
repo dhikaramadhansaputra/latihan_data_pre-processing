@@ -8,3 +8,6 @@ hal-hal yang dilakukan :
 - kolom jenis = ada data yang salah tempat kolom (rs jenis ini '021-26071997') (BELUM DI BENERIN) - (Done, dihapus 1 row, karena dari datanya udah ngawur (provinsi DKI Jakarta tapi kabupaten kepulauan seribu))
 - kolom kelas = Ada data dari jenis yang ke geser (2 row) - (done semua, dibenerin manual. kolom kepemilikan di ganti 'Tidak Diketahui' karena data aslinya rusak dari sananya)
 - kolom kepemilikan = aman (tadinya engga, karena ada pergeseran data dari kolom aslinya. udah dibenerin)
+- kolom total_tempat_tidur = aman
+- kolom total_layanan = aman
+- kolom total_tenaga_kerja = ada 357 RS yang tenaga kerjanya 0 - (done, diganti dengan NaN biar ga mempengarhi visualisasi)
