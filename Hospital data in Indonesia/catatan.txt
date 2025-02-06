@@ -11,3 +11,9 @@ hal-hal yang dilakukan :
 - kolom total_tempat_tidur = aman
 - kolom total_layanan = aman
 - kolom total_tenaga_kerja = ada 357 RS yang tenaga kerjanya 0 - (done, diganti dengan NaN biar ga mempengarhi visualisasi)
+3. drop kolom alamat (karna ga dipake di visualisasi)
+
+PENGECEKAN ULANG :
+1. ada data RS provinsi jogja dengan id 3471085 datanya geser - (Done, dibenerin manual (kepemilikan diganti 'tidak diketahui'))
+
+--- DATA CLEANING DONE ---
