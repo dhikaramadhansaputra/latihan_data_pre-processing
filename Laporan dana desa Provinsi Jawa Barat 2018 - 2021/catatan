@@ -1,0 +1,12 @@
+Link dataset (kaggle) = https://www.kaggle.com/datasets/eki1381/village-fund-data-in-jawa-barat
+
+Hal-hal yang dilakukan : 
+1. melakukan inspeksi struktur dataframe (biar tau tipe data, jumlah data, dll) - tidak ada nilai null, tetapi dilihat sekilas ada banyak desa yang anggaran dan penyalurannya rp 0
+2. melakukan inspeksi masing masing kolom = 
+- kolom tahun = aman
+- kolom Kabupaten = aman
+- kolom Desa = aman
+- kolom Anggaran :
+  - mengecek apakah semuanya numeric = aman
+  - mengecek apakah ada yang anggarannya Rp. 0 = banyak,tapi ga aku ganti ke null values. bisa jadi emang desanya ga dapet anggaran karena alasan tertentu (udah mandiri secara finansial, ada kesalahan administrasi, atau belum memenuhi syarat dapat anggaran)
+- kolom Penyaluran = 
