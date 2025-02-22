@@ -1,0 +1,9 @@
+Link tutorial = https://www.kaggle.com/datasets/hasibalmuzdadid/asia-cup-cricket-1984-to-2022
+
+Hal-hal yang dilakukan : 
+- import (extract) dataset
+- inspeksi jumlah null values tiap kolom (ada 2 rows yg null)
+- inspeksi tipe data (udah bener semua)
+- cek kolom yg valuenya null
+- hapus 2 data yang null valuesnya
+- eksport (load) data clean
