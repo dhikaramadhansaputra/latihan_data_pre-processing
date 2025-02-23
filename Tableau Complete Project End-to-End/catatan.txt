@@ -1,0 +1,7 @@
+Link dataset (dari deskripsi youtube) = https://www.youtube.com/watch?v=dahrmqT5GD4&t=872s
+
+pre processing (orders) = belum done
+1. ubah tipe data menjadi date pada kolom 'order date' dan 'ship date'
+2. ubah tipe data kolom 'sales', 'discount', 'profit' jadi float (, nya diganti dulu jadi ., abis itu baru diganti tipe datanya) - (hati hati sama profit, karna ada values yg mines, takut keganti)
+3. validasi data (cek null, cek numerik, dll)
+4. eksport (load) ke folder clean
